@@ -6,6 +6,9 @@ from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 import os
 import json
+import nltk
+nltk.download('punkt')
+
 
 # Define the directory containing JSON files
 data_directory = "./Resources/data/json/"
